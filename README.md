@@ -23,8 +23,6 @@
 - [Repository Structure](#-repository-structure)
 - [Getting Started](#-getting-started)
 - [Screenshots](#-screenshots)
-- [License](#-license)
-
 ---
 
 ## 🔍 Project Overview
@@ -222,12 +220,6 @@ plotly
 ## 🤝 Contributing
 
 Contributions and suggestions are welcome. Feel free to open an issue or submit a pull request.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 

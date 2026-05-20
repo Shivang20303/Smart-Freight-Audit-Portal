@@ -5,7 +5,6 @@
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-F7931E?style=flat&logo=scikit-learn)
 ![RandomForest](https://img.shields.io/badge/Model-Random%20Forest-green?style=flat)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat)
-![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat)
 
 > An **AI-powered invoice intelligence and freight cost optimization platform** — combining machine learning with real-time risk scoring to detect anomalies, flag fraudulent invoices, and predict freight costs with 89% accuracy.
 

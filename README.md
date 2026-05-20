@@ -23,6 +23,7 @@
 - [Repository Structure](#-repository-structure)
 - [Getting Started](#-getting-started)
 - [Screenshots](#-screenshots)
+- [License](#-license)
 
 ---
 
@@ -126,16 +127,16 @@ The Invoice Risk Assessment module is powered by a **Random Forest Classifier** 
 
 ---
 
-## 🛠️ Tech Stack
+## 🔧 Tech Stack
 
 | Layer | Technology |
 |---|---|
-| **Frontend / UI** | Streamlit |
-| **ML Model** | Scikit-Learn (Random Forest Classifier) |
-| **Data Processing** | Pandas, NumPy |
-| **Visualizations** | Matplotlib, Plotly |
+| **Frontend / UI** | [Streamlit](https://streamlit.io/) |
+| **ML Model** | [Scikit-Learn](https://scikit-learn.org/) (Random Forest Classifier) |
+| **Data Processing** | [Pandas](https://pandas.pydata.org/), [NumPy](https://numpy.org/) |
+| **Visualizations** | [Matplotlib](https://matplotlib.org/), [Plotly](https://plotly.com/python/) |
 | **Export / Reporting** | JSON, Python `io` |
-| **Language** | Python 3.10+ |
+| **Language** | [Python 3.10+](https://www.python.org/) |
 
 ---
 
@@ -206,21 +207,27 @@ plotly
 ## 📸 Screenshots
 
 ### Invoice Risk Assessment
-![Invoice Risk Assessment](output_images/invoice_risk_1.png)
-![Invoice Risk Assessment](output_images/invoice_risk_2.png)
+![Invoice Risk Assessment](output_images/invoice_risk.png)
 
 ### Freight Cost Prediction
-![Freight Cost Prediction](output_images/freight_cost_1.png)
-![Freight Cost Prediction](output_images/freight_cost_2.png)
+![Freight Cost Prediction](output_images/freight_cost.png)
 
 ### Audit Trail
 ![Audit Trail](output_images/audit_trail.png)
+
+> *(Add an `/output_images` folder to your repo with the relevant images)*
 
 ---
 
 ## 🤝 Contributing
 
 Contributions and suggestions are welcome. Feel free to open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 

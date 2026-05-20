@@ -139,31 +139,45 @@ The Invoice Risk Assessment module is powered by a **Random Forest Classifier** 
 ---
 
 ## 📁 Repository Structure
-
+ 
 ```
 Smart-Freight-Audit-Portal/
 │
-├── app.py                        # Main Streamlit application
-├── model/
-│   ├── train_model.py            # Model training script
-│   ├── invoice_risk_model.pkl    # Trained Random Forest model
-│   └── freight_cost_model.pkl   # Freight cost prediction model
-│
-├── data/
-│   └── invoice_data.csv         # Training dataset
-│
-├── notebooks/
-│   └── model_training.ipynb     # EDA + model development notebook
-│
-├── utils/
-│   └── helpers.py               # Utility functions
-│
+├── app.py                              # Main Streamlit application
 ├── requirements.txt
-└── README.md
+├── README.md
+│
+├── freight_cost_prediction/            # Freight cost prediction pipeline
+│   ├── data_preprocessing.py          # Feature engineering & data prep
+│   ├── train.py                       # Model training script
+│   ├── model_evaluation.py            # Evaluation metrics & reporting
+│   └── models/
+│       └── predict_freight_model.pkl  # Trained freight cost model
+│
+├── invoice flagging/                   # Invoice risk assessment pipeline
+│   ├── data_preprocessing.py          # Feature engineering & data prep
+│   ├── train.py                       # Model training script
+│   ├── modeling_evaluation.py         # Evaluation metrics & reporting
+│   └── models/
+│       ├── predict_flag_invoice.pkl   # Trained Random Forest classifier
+│       └── scaler.pkl                 # Feature scaler
+│
+├── Inference/                          # Inference scripts for both models
+│   ├── predict_freight.py             # Freight cost prediction inference
+│   └── predict_invoice_flag.py        # Invoice flagging inference
+│
+├── notebooks/                          # Exploratory & training notebooks
+│   ├── Invoice Flagging.ipynb
+│   └── Predicting Freight Cost.ipynb
+│
+└── output_images/                      # App screenshots for README
+    ├── invoice_risk_1.png
+    ├── invoice_risk_2.png
+    ├── freight_cost_1.png
+    ├── freight_cost_2.png
+    └── audit_trail.png
 ```
-
-> ⚠️ *Update the structure above to match your actual repository layout.*
-
+ 
 ---
 
 ## 🚀 Getting Started

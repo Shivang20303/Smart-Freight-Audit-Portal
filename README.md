@@ -205,16 +205,15 @@ plotly
 ## 📸 Screenshots
 
 ### Invoice Risk Assessment
-![Invoice Risk Assessment](output_images/invoice_risk.png)
+![Invoice Risk Assessment](output_images/invoice_risk_1.png)
+![Invoice Risk Assessment](output_images/invoice_risk_2.png)
 
 ### Freight Cost Prediction
-![Freight Cost Prediction](output_images/freight_cost.png)
+![Freight Cost Prediction](output_images/freight_cost_1.png)
+![Freight Cost Prediction](output_images/freight_cost_2.png)
 
 ### Audit Trail
 ![Audit Trail](output_images/audit_trail.png)
-
-> *(Add an `/output_images` folder to your repo with the relevant images)*
-
 ---
 
 ## 🤝 Contributing

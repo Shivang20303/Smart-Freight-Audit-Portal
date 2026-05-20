@@ -23,7 +23,6 @@
 - [Repository Structure](#-repository-structure)
 - [Getting Started](#-getting-started)
 - [Screenshots](#-screenshots)
-- [License](#-license)
 
 ---
 

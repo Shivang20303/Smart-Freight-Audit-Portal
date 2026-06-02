@@ -34,7 +34,7 @@ The system is powered by a **Random Forest Classifier** trained on historical in
 
 ## 🚀 Live Demo
 
-> *(Add your deployed Streamlit / Hugging Face Spaces link here)*
+> https://smart-freight-audit-shivang20303.streamlit.app/
 
 ---
 
